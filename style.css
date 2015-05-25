@@ -55,14 +55,14 @@ h2 {
   padding: 40px 0;
   color: #999;
   font-size: 14px;
-  text-align: center;
+  text-align: center; 
 }
 
 .selected {
   color: #ccc;
 }
 .nav_item:hover {
-  color: #ddd;
+  color: orange;
   cursor: pointer;
 }
 
@@ -88,7 +88,7 @@ h2 {
  color: black;
 }
 .slide_dot:hover {
- color: #08b;
+ color: orange;
 }
 #slide_title {
  font-weight: bold;
