@@ -32,11 +32,15 @@ html, body {
   margin-bottom: -8px;
 }
 .clearfix {
-  clear: both;
+ padding: 0;
+ margin: 0;
+ height: 0;
+ clear: both;
 }
 .content {
   width: 1050px;
   margin: 80px auto 0px auto;
+  font-size: 16px;
 }
 h2 {
   margin-top: 60px;
@@ -56,6 +60,8 @@ h2 {
 
 .img_wide {
   width: 1050px;
+//  width: 1650px;
+//  margin-left: -300px;
 }
 .selected {
   color: #ccc;
@@ -65,3 +71,52 @@ h2 {
   cursor: pointer;
 }
 
+
+#slide_container {
+ width: 800px;
+ height: 280px;
+ overflow: hidden;
+}
+#slide_div {
+ width: 2400px;
+ height: 100%;
+}
+.slide_dots {
+ text-align: right;
+}
+.slide_dot {
+ font-size: 28px;
+ color: #d0d0d0;
+ cursor: pointer;
+}
+.dot_selected,  .dot_selected.slide_dot:hover  {
+ color: black;
+}
+.slide_dot:hover {
+ color: orange;
+}
+#slide_title {
+ font-weight: bold;
+ color: #333;
+ font-style: italic;
+ font-size: 18px;
+}
+#slide_author {
+ font-weight: normal;
+ color: #333;
+ font-style: normal;
+ font-size: 18px;
+}
+#slide_caption {
+ font-weight: regular;
+ color: #666;
+ font-style: italic;
+ float: left;
+ font-size: 14px;
+}
+#slide_dots {
+ text-align: right;
+ padding-right: 16px;
+ float: right;
+ margin-top: -2px;
+}
