@@ -38,7 +38,7 @@ html, body {
  clear: both;
 }
 .content {
-  width: 1050px;
+  width: 800px;
   margin: 80px auto 0px auto;
   font-size: 16px;
 }
@@ -58,11 +58,6 @@ h2 {
   text-align: center;
 }
 
-.img_wide {
-  width: 1050px;
-//  width: 1650px;
-//  margin-left: -300px;
-}
 .selected {
   color: #ccc;
 }
