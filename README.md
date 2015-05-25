@@ -1,5 +1,5 @@
 # braungroup
-Braun Group LLC
+Braun Group, LLC
 
 Files and Directories
 =====================
