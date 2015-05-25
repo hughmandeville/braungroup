@@ -115,3 +115,8 @@ h2 {
  float: right;
  margin-top: -2px;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
