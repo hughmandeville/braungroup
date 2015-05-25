@@ -4,6 +4,8 @@ Source files for the Braun Group website [www.braungroupllc.com](http://www.brau
 Files and Directories
 =====================
 
+  .htaccess            - Web server configuration (rewrite rules, ...).
+
   code.js              - Site JavaScript file. 
 
   connect.html         - Web page with contact info.
