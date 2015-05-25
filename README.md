@@ -4,13 +4,31 @@ Source files for the Braun Group website [www.braungroupllc.com](http://www.brau
 Files and Directories
 =====================
 
-code.js   
+  code.js              - Site JavaScript file. 
 
-index.html
+  connect.html         - Web page with contact info.
 
-install.sh
+  executive_bios.html  - Web page with info about executive biographies.
 
-style.css
+  favicon_32x32.png    - Site icon for bookmarks and tabs.      
 
-images/
+  general_bios.html    - Web page with info about general biographies.
+
+  index.html           - Home page.
+
+  install.sh           - Script to install files on the web server.
+
+  README.md            - This file.
+
+  robots.txt           - Contains info for web crawlers.
+
+  sitemap.xml          - List of pages on the site.
+
+  style.css            - Main style sheet.
+
+  team.html            - Web page with team info.
+
+  visual_bios.html     - Web page with info about visual biographies.
+
+  images/              - Directory with images.
   
