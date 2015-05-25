@@ -1,5 +1,5 @@
 // size of slide images.  they all need to be the same
-var slide_image_width = 800;
+var slide_image_width = 1600;
 // index of current image
 var current_image_index = 0;
 // whether to run slide show
