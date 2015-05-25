@@ -8,10 +8,10 @@ var slide_show_timer = null;
 // list of slide images
 var slide_images = [
 {
-    "src"     : "http://braungroupllc.com/bgroup/wp-content/uploads/2014/10/book_800x280.jpg",
-    "title"   : "The Braun Group",
+    "src"     : "http://braungroupllc.com/new/images/books1.jpg",
+    "title"   : "",
     "author"  : "",  
-    "caption" : "A collection of books"
+    "caption" : ""
 },
 {
     "src"     : "http://braungroupllc.com/bgroup/wp-content/uploads/2013/12/ames_01_800x280.jpg",
