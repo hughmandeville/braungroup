@@ -65,10 +65,10 @@ h2 {
 }
 
 .selected {
-  color: #ccc;
+  color: black;
 }
 .nav_item:hover {
-  color: black;
+  color: #ccc;
   cursor: pointer;
 }
 
