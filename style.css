@@ -169,14 +169,16 @@ a {
     max-width: 100%
 }
 
-.box {
+.bio_box {
   float: left;
-  width: 200px;
+  width: 280px;
   border: 1px solid #c0c0c0;
   padding: 20px;
-  height: 150px;
+  height: 200px;
   margin: 5px;
-  }
+  text-align: center;
+  font-size: 18px;
+}
 
 
 .band {
