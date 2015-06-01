@@ -8,5 +8,5 @@ scp style.css rebeccabraun@braungroupllc.com:/var/chroot/home/content/38/9497338
 scp team.html rebeccabraun@braungroupllc.com:/var/chroot/home/content/38/9497338/html/new/
 scp visual_bios.html rebeccabraun@braungroupllc.com:/var/chroot/home/content/38/9497338/html/new/
 scp images/*jpg rebeccabraun@braungroupllc.com:/var/chroot/home/content/38/9497338/html/new/images/
-#scp images/*png rebeccabraun@braungroupllc.com:/var/chroot/home/content/38/9497338/html/new/images/
+scp images/*png rebeccabraun@braungroupllc.com:/var/chroot/home/content/38/9497338/html/new/images/
 
