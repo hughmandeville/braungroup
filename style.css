@@ -131,6 +131,11 @@ a {
   text-decoration: none;
   color: inherit;
 }
+.content a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
 
 #executive-hero-gallery.gallery .image-executive-hero-book {
     margin-left: auto;
@@ -183,4 +188,15 @@ a {
 }
 .book_title {
  font-weight: 400;
+}
+.side_box {
+  font-weight: 400;
+  float: right;
+  color: #444;
+  font-size: 18px;
+  background: #e0e0e0;
+  padding: 40px 40px;
+  margin: 0 0 20px 40px;
+  width: 320px;
+  font-style: italic;
 }
