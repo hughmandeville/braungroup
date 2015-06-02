@@ -1,3 +1,24 @@
+var position=0;
+
+$(function() {
+
+    window.setInterval(goto_next_image, 5000);
+    
+
+});
+
+function goto_next_image() {
+    if (position == 0) {
+        $("#books").animate({"margin-left":"-2800px"}, 2000);
+        position = 2800;
+    } else {
+        $("#books").animate({"margin-left":"0px"}, 2000);
+        position = 0;
+    }        
+}
+
+
+/*
 // size of slide images.  they all need to be the same
 var slide_image_width = 800;
 // index of current image
@@ -87,3 +108,4 @@ function goto_image(i) {
     $(".slide_dot[data-index='" + i + "']").addClass("dot_selected");
     $("#slide_div").animate({"margin-left":"-" + left_margin + "px"}, 1000);
 }
+*/
