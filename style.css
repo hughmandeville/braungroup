@@ -217,3 +217,16 @@ a {
   width: 320px;
   font-style: italic;
 }
+
+
+
+#books {
+ margin-top: 80px;
+ width: 4210px;
+ overflow: hidden;
+ margin-left: -1400px; 
+}
+.book {
+ padding: 0 400px;
+}
+
