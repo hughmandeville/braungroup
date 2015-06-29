@@ -177,9 +177,31 @@ a {
   height: 200px;
   margin: 5px;
   text-align: center;
-  font-size: 18px;
+  font-size: 30px;
+  color: #666;
+  cursor: pointer;
+}
+.bio_box:hover {
+  opacity: 0.7;
+  color: #08c;
+  border: 1px solid #333;
 }
 
+#box_general_bios {
+  background-image: url("images/wood-800x532.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+#box_executive_bios {
+  background-image: url("images/action-800x533.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+#box_visual_bios {
+  background-image: url("images/stairs-800x533.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
 
 .band {
  width: 100%;
