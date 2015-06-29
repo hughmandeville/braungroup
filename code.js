@@ -17,8 +17,8 @@ $(function() {
 
 function goto_next_image() {
     if (position == 0) {
-        $("#books").animate({"margin-left":"-2800px"}, 2000);
-        position = 2800;
+        $("#books").animate({"margin-left":"-3500px"}, 2000);
+        position = 3500;
     } else {
         $("#books").animate({"margin-left":"0px"}, 2000);
         position = 0;

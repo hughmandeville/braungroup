@@ -244,11 +244,12 @@ a {
 
 #books {
  margin-top: 80px;
- width: 4210px;
+ width: 5000px;
  overflow: hidden;
  margin-left: -1400px; 
 }
 .book {
+ width: 400px;
  padding: 0 400px;
 }
 
