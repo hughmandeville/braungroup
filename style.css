@@ -161,10 +161,10 @@ a {
 
 .bio_box {
   float: left;
+  height: 200px;
   width: 280px;
   border: 1px solid #c0c0c0;
   padding: 20px;
-  height: 200px;
   margin: 5px;
   text-align: center;
   font-size: 30px;
@@ -289,19 +289,31 @@ a {
  line-height: 1.5em;
 }
 
-
-
-
-
-
-#visual_bio_panel {
+#visual_panel {
  float: right;
- padding-left: 20px;
- width: 240px;
- height: 316px;
- background-size: 480px 632px;
+ margin-left: 20px;
+}
+#visual_cell {
+ width: 368px;
+ height: 474px;
+ background-size: 740px 1000px;
  background-repeat: no-repeat;
  background-image: url('images/dively_booklet.png');
- border: 1px solid #d0d0d0;
+}
+#visual_buttons {
+ text-align: center;
+ font-size: 30px;
+ font-family: helvetica, 'courier new', courier, monospace;
+ color: #c0c0c0;
+ padding: 0;
+ margin: 0;
+ line-height: .7em;
+}
+.panel_button {
+ cursor: pointer;
+ padding: 2px;
 }
 
+.panel_button:hover {
+  color: #08c;
+}
