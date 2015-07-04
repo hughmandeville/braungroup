@@ -246,6 +246,7 @@ a {
  border: 1px solid #d0d0d0;
  padding: 0;
  overflow: hidden;
+ background: #f0f0f0;
 }
 
 .book_img {
