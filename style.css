@@ -55,10 +55,6 @@ h2 {
  line-height: 2em;
  font-weight: 300;  
 }
-.band .narrow {
-  width: 750px;
-  color: #000;
-}
 
 .team_member {
   width: 920px;
@@ -197,10 +193,14 @@ a {
 .band {
  width: 100%;
  padding: 40px 0;
- margin: 20px 0;
+ margin: 0;
+}
+.band .narrow {
+  width: 750px;
+  color: #000;
 }
 .top_band {
- padding: 60px 0 0 0;
+ padding: 40px 0 0 0;
 }
 
 .gray {
