@@ -263,9 +263,8 @@ a {
  padding-left: 20px;
  width: 240px;
  height: 316px;
- //background-position: -240px 0px;
  background-size: 480px 632px;
  background-repeat: no-repeat;
- background-image: url('images/dively-booklet-newpanel.png');
+ background-image: url('images/dively_booklet.png');
  border: 1px solid #d0d0d0;
 }
