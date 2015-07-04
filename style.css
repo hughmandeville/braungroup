@@ -23,6 +23,7 @@ h2 {
   font-family: 'Lato',Helvetica,Arial,Verdana,sans-serif;
   font-weight: 400;
   font-size: 16px;
+  z-index: 100;
 }
 #nav_items {
   width: 1080px;
@@ -156,24 +157,6 @@ a {
   text-decoration: underline;
 }
 
-
-#executive-hero-gallery.gallery .image-executive-hero-book {
-    margin-left: auto;
-    margin-right: auto;
-    background-repeat: no-repeat;
-    background-size: 1440px 740px;
-    background-image: url("http://images.apple.com/v/watch/d/home/images/hero_dance_large.jpg");
-    height: auto;
-    width: 100%;
-    max-width: 2560px;
-    background-position: 50% 50%;
-    background-size: 100% auto;
-    padding-bottom: 51.3889%;
-    background-position: 50% 50%;
-    background-size: 100% auto;
-    max-width: 100%
-}
-
 .bio_box {
   float: left;
   width: 280px;
@@ -198,7 +181,7 @@ a {
   background-repeat: no-repeat;  
 }
 #box_executive_bios {
-  background-image: url("images/action-800x533.jpg");
+  background-image: url("images/sand-dollar-800x530.jpg");
   background-size: cover;
   background-repeat: no-repeat;  
 }
@@ -246,17 +229,61 @@ a {
 }
 
 
-
 #books {
- margin-top: 80px;
- width: 5000px;
+ position: relative;
+ margin: 80px auto 0px auto;
+ width: 800px;
+ height: 400px;
+ border: 1px solid #d0d0d0;
+ padding: 0;
  overflow: hidden;
- margin-left: -1400px; 
 }
-.book {
+
+.book_img {
+ position: absolute;
+ top: 0;
+ right: 0;
  width: 400px;
- padding: 0 400px;
+ height: 400px;
+ z-index: 1;
 }
+
+
+.book {
+ display: inline-block;
+ width: 400px;
+ margin: 0;
+ padding: 0;
+ horizontal-align: right;
+}
+.text {
+ display: inline-block;
+ width: 356px;
+ padding: 20px;
+ vertical-align: top;
+}
+.title {
+ font-weight: 600;
+ color: #333;
+ font-size: 20px;
+}
+.byline {
+ font-weight: 300;
+ color: #777;
+ font-size: 18px;
+ padding-bottom: 20px;
+}
+.summary {
+ font-weight: 300;
+ color: #666;
+ font-size: 16px;
+ line-height: 1.5em;
+}
+
+
+
+
+
 
 #visual_bio_panel {
  float: right;
@@ -268,3 +295,4 @@ a {
  background-image: url('images/dively_booklet.png');
  border: 1px solid #d0d0d0;
 }
+
