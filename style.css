@@ -9,6 +9,8 @@ h1 {
   padding-top: 10px;
 }
 h2 {
+  margin: 0;
+  padding: 0;
   font-size: 24px;
   font-weight: 300;
 }
@@ -193,7 +195,7 @@ a {
 
 .band {
  width: 100%;
- padding: 40px 0;
+ padding: 40px 0px;
  margin: 0;
 }
 .band .narrow {
@@ -201,7 +203,7 @@ a {
   color: #000;
 }
 .top_band {
- padding: 40px 0 0 0;
+ padding: 40px 0px 0px 0px;
 }
 
 .gray {
