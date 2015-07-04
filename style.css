@@ -54,6 +54,11 @@ h2 {
  line-height: 2em;
  font-weight: 300;  
 }
+.band .narrow {
+  width: 750px;
+  color: #000;
+}
+
 .team_member {
   width: 920px;
   //background: #f0f0f0;
@@ -253,3 +258,14 @@ a {
  padding: 0 400px;
 }
 
+#visual_bio_panel {
+ float: right;
+ padding-left: 20px;
+ width: 240px;
+ height: 316px;
+ //background-position: -240px 0px;
+ background-size: 480px 632px;
+ background-repeat: no-repeat;
+ background-image: url('images/dively-booklet-newpanel.png');
+ border: 1px solid #d0d0d0;
+}
