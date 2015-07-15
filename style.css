@@ -6,7 +6,7 @@ html, body {
 h1 {
   font-size: 28px;
   font-weight: 400;
-  padding-top: 10px;
+  padding-top: 30px;
 }
 h2 {
   margin: 0;
@@ -19,7 +19,7 @@ h2 {
   position: fixed;
   top: 0;
   width: 100%;  
-  background: rgba(0,0,0,0.6);
+  background: #242424;
   color: white;
   padding: 0;
   margin: 0;
@@ -54,17 +54,17 @@ h2 {
  width: 1000px;
  margin: 0 auto;
  font-size: 16px;
- color: #666;
- line-height: 2em;
+ color: # 242424;
+ line-height: 1.7em;
  font-weight: 300;  
 }
 
 .team_member {
   width: 920px;
-  background: #f7f7f7;
+  background: #BBB4A1;
   padding: 10px 40px 0 40px;
   margin-bottom: 20px;
-   border: 1px solid #d0d0d0;
+  border: 1px solid #d0d0d0;
 }
 .team_member:hover {
   background: #f0f0f0;
@@ -79,7 +79,7 @@ h2 {
 }
 
 #footer {
-  background: #f2f2f2;
+  background: #BBB4A1;
   width: 100%;
   font-family: 'Lato',Helvetica,Arial,Verdana,sans-serif;
   font-weight: 300;
@@ -195,7 +195,7 @@ a {
 
 .band {
  width: 100%;
- padding: 40px 0px;
+ padding: 15px 0px;
  margin: 0;
 }
 .band .narrow {
@@ -207,7 +207,7 @@ a {
 }
 
 .gray {
- background: #f0f0f0;  
+ background: #BBB4A1;  
 }
 
 .book_image_left {
@@ -230,8 +230,8 @@ a {
   float: right;
   color: #444;
   font-size: 18px;
-  background: #e0e0e0;
-  padding: 40px 40px;
+  background: #BBB4A1;
+  padding: 20px 20px;
   margin: 0 0 20px 40px;
   width: 320px;
   font-style: italic;
