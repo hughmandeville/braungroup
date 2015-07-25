@@ -19,7 +19,7 @@ h2 {
   position: fixed;
   top: 0;
   width: 100%;  
-  background: #242424;
+  background: #565555;
   color: white;
   padding: 0;
   margin: 0;
@@ -61,7 +61,7 @@ h2 {
 
 .team_member {
   width: 920px;
-  background: #BBB4A1;
+  background: #e3dfd4;
   padding: 10px 40px 0 40px;
   margin-bottom: 20px;
   border: 1px solid #d0d0d0;
@@ -79,7 +79,7 @@ h2 {
 }
 
 #footer {
-  background: #BBB4A1;
+  background: #e3dfd4;
   width: 100%;
   font-family: 'Lato',Helvetica,Arial,Verdana,sans-serif;
   font-weight: 300;
@@ -207,7 +207,7 @@ a {
 }
 
 .gray {
- background: #BBB4A1;  
+ background: #e3dfd4;  
 }
 
 .book_image_left {
@@ -230,11 +230,12 @@ a {
   float: right;
   color: #444;
   font-size: 18px;
-  background: #BBB4A1;
+  background: #f0f0f0;
   padding: 20px 20px;
   margin: 0 0 20px 40px;
   width: 320px;
   font-style: italic;
+  border-radius: 12px;
 }
 
 
@@ -301,6 +302,27 @@ a {
  background-repeat: no-repeat;
  background-image: url('images/dively_booklet.png');
 }
+
+#visual_cell_general {
+ width: 368px;
+ height: 474px;
+ text-align: center;
+ font-size: 30px;
+ color: #666;
+ cursor: pointer
+ background-size: 740px 1000px;
+ background-repeat: no-repeat;
+ background-image: url('images/placeholder.jpg');
+}
+
+#visual_cell_executive {
+ width: 368px;
+ height: 474px;
+ background-size: 740px 1000px;
+ background-repeat: no-repeat;
+ background-image: url('images/dively_booklet.png');
+}
+
 #visual_buttons {
  text-align: center;
  font-size: 30px;
