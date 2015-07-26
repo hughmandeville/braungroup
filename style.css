@@ -60,7 +60,7 @@ h2 {
 }
 
 .team_member {
-  width: 920px;
+  width: 470px;
   background: #e3dfd4;
   padding: 10px 40px 0 40px;
   margin-bottom: 20px;
@@ -73,7 +73,7 @@ h2 {
 .team_member_image {
   float:left;
   margin: 20px 40px 80px 0;
-  height: 240px;
+  height: 200px;
   border-radius: 120px;
   background: #666;
 }
@@ -162,7 +162,7 @@ a {
 .bio_box {
   float: left;
   height: 200px;
-  width: 280px;
+  width: 420px;
   border: 1px solid #c0c0c0;
   padding: 20px;
   margin: 5px;
@@ -177,17 +177,13 @@ a {
   border: 1px solid #333;
 }
 
-#box_general_bios {
+#box_book_reviews {
   background-image: url("images/wood-800x532.jpg");
   background-size: cover;
   background-repeat: no-repeat;  
+
 }
-#box_executive_bios {
-  background-image: url("images/sand-dollar-800x530.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;  
-}
-#box_visual_bios {
+#box_venture_dev {
   background-image: url("images/stairs-800x533.jpg");
   background-size: cover;
   background-repeat: no-repeat;  
