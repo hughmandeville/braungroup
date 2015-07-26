@@ -2,14 +2,14 @@ var position=0;
 
 $(function() {
     
-    $("#box_general_bios").on("click", function() {
-        window.open("general_bios.html", "_self");
+    $("#box_book_reviews").on("click", function() {
+        window.open("book_reviews.html", "_self");
     });    
     $("#box_executive_bios").on("click", function() {
         window.open("executive_bios.html", "_self");
     });
-    $("#box_visual_bios").on("click", function() {
-        window.open("visual_bios.html", "_self");
+    $("#box_venture_dev").on("click", function() {
+        window.open("venture_dev.html", "_self");
     });
 
     $("#panel1").on("click", function() {
