@@ -15,6 +15,13 @@ h2 {
   font-weight: 300;
 }
 
+h3 {
+  font-size: 28px;
+  font-weight: 400;
+  padding: 0px;
+  margin: 0px;
+}
+
 #nav {
   position: fixed;
   top: 0;
@@ -311,11 +318,24 @@ a {
  cursor: pointer;
 }
 
+#visual_cell_reviews {
+ width: 368px;
+ height: 474px;
+ text-align: center;
+ border: 1px solid #c0c0c0;
+ font-size: 30px;
+ color: White;
+ background-repeat: no-repeat;
+ background-image: url('images/wood-800x532.jpg');
+ cursor: pointer;
+}
+
 .transbox {
   margin-top: 200px;
   background-color: black;
   border: 1px solid black;
-  opacity:0.9;
+  opacity:0.7;
+  padding: 4px;
 }
 
 #visual_cell_general:hover {
@@ -328,9 +348,20 @@ a {
 #visual_cell_executive {
  width: 368px;
  height: 474px;
- background-size: 740px 1000px;
+ text-align: center;
+ border: 1px solid #c0c0c0;
+ font-size: 30px;
+ color: White;
  background-repeat: no-repeat;
- background-image: url('images/dively_booklet.png');
+ background-image: url('images/executive_mix.jpg');
+ cursor: pointer;
+}
+
+#visual_cell_executive:hover {
+ opacity: 0.7;
+ color: #08c;
+ border: 1px solid #333;
+ background-image: url('images/executive_mix_hover.jpg');
 }
 
 #visual_buttons {
