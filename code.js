@@ -5,7 +5,12 @@ $(function() {
     $("#visual_cell_general").on("click", function() {
         window.open("general_bios_desc.html", "_self");
     }); 
-    $("#box_book_reviews").on("click", function() {
+
+    $("#visual_cell_executive").on("click", function() {
+        window.open("executive_bios_desc.html", "_self");
+    }); 
+
+    $("#visual_cell_reviews").on("click", function() {
         window.open("book_reviews.html", "_self");
     });    
     $("#box_executive_bios").on("click", function() {
