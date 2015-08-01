@@ -91,6 +91,8 @@ td {
   padding: 10px 20px 0 20px;
   margin-bottom: 20px;
   border: 1px solid #d0d0d0;
+  vertical-align: top;
+  height: 500px;
 }
 .team_member:hover {
   background: #f0f0f0;
@@ -258,7 +260,6 @@ a {
   border-radius: 12px;
 }
 
-
 #books {
  position: relative;
  margin: 80px auto 0px auto;
@@ -278,7 +279,6 @@ a {
  height: 400px;
  z-index: 1;
 }
-
 
 .book {
  display: inline-block;
