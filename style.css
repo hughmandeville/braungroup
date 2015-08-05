@@ -352,8 +352,7 @@ a {
  font-size: 30px;
  color: White;
  background-repeat: no-repeat;
- background-image: url('images/stairs-800x533.jpg');
- background-size: 712px 474px;
+ background-image: url('images/tablet1.jpg');
  cursor: pointer;
 }
 
@@ -403,9 +402,8 @@ a {
  border: 1px solid #c0c0c0;
  font-size: 30px;
  color: White;
- background-repeat: no-repeat;
- background-image: url('images/sand-dollar-800x530.jpg');
- background-position: -420px -10px;
+ background-image: url('images/tablet2.jpg');
+ background-position: -20px -20px;
  background-repeat: no-repeat;
  cursor: pointer;
 }
