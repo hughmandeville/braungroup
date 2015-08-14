@@ -16,11 +16,9 @@ h1, h2 {
 
 
 @media all and (max-width: 459px) {
- body {
-  margin: 0 10px;
- }
  .content {
   min-width: 380px;
+  padding: 0 10px;
  }
  .col1a {
   width: 100%;
@@ -32,11 +30,9 @@ h1, h2 {
 
 
 @media all and (min-width: 450px) and (max-width: 767px) {
- body {
-  margin: 0 30px;
- }
  .content {
   min-width: 390px;
+  padding: 0 30px;
  }
  .col1a {
   width: 100%;
@@ -50,10 +46,8 @@ h1, h2 {
 
 
 @media all and (min-width: 768px) and (max-width: 1019px) {
- body {
-  margin: 0 30px;
- }
  .content {
+  padding: 0 30px;
   width: 708px;
  }
  .col1a {
@@ -66,12 +60,9 @@ h1, h2 {
 }
 
 @media all and (min-width: 1020px) {
- body {
-  margin: 0 30px;
- }
  .content {
+  padding: 0 30px;
   width: 960px;
-  pading: 30px;  
  }
  .col1a {
   width: 630px;
@@ -82,7 +73,39 @@ h1, h2 {
  }
 }
 
+.clearfix {
+ padding: 0;
+ margin: 0;
+ height: 0;
+ clear: both;
+}
 
+#nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #565555;
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato',Helvetica,Arial,Verdana,sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  z-index: 100;
+}
+#nav_items {
+  width: 1080px;
+  margin: 0 auto;
 
-
-
+}
+.nav_item {
+  text-align: center;
+  float: left;
+  width: 180px;
+  padding:  14px 0;
+}
+.nav_item img {
+  height: 30px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+}
