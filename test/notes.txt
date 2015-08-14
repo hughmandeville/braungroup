@@ -1,0 +1,36 @@
+Responsive Design
+
+There are 3 break points for phone (400), tablet (768) and desktop (1020).  Between 400-768 the elements grow proportionally.  From 768 and above the content has a fixed width and is centered.  The nav bar and footer take up the whole width.  The minimum width is 400. 
+
+Responsive Design Width Breaks
+
+          Window   Size    Content
+ phone    400      grows   margin 10
+ tablet   768      fixed   708
+ desktop  1020     fixed   960
+
+
+Layouts
+
+  0                 400               768         1020   
+  |                  |                 |            |
+
+1-column
+
+  | 30 |             708          | 30 | 
+
+  | 30 |                  960                  | 30 | 
+
+
+2-column Asymmetric
+
+  | 30 |     460    | 30 |  218   | 30 | 
+
+  | 30 |        630       | 30 |      300      | 30 | 
+
+  
+2-column Symmetric
+
+  | 30 |   339    | 30 |   339    | 30 |
+
+  | 30 |      445       | 30 |       445       | 30 | 
