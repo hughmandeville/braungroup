@@ -8,6 +8,7 @@
  <link rel="stylesheet" type="text/css" href="style.css">
  <link rel="icon" type="image/png" href="../images/favicon_32x32.png">
  <script src="http://code.jquery.com/jquery.min.js"/></script>
+ <script src="code.js"/></script>
 </head>
 <body>
   <div id="nav">
@@ -37,21 +38,19 @@
         <br/>
     </div>
     <div class="col2a">
-      <div class="subcol2">
-      <div class="image"></div>
-      <div class="text">
-      <img class="book_image" src="../images/book_cover_little_did_we_know.jpg"/>
-      <h2><span class="book_title">Little Did We Know</span><br/>by John R. Miller</h2><br>
-      <strong>Executive Memoir</strong><br>
-      <i>“This is a great story about American enterprise at the cutting edge. Too often we do not get such a clear and personal view of the challenges associated with major innovations. Mr. Miller was fortunate to be in an industry at a dynamic period of opportunity, and we are fortunate that he has shared his story with us.”</i>
-      </div>
+      <div id="book_slider">
+        <div id="book_image"></div>
+        <div id="slider_dots"></div>
+        <div id="book_text">
+          <h2><span id="book_title"></span><br/><span id="book_byline"></span></h2><br/>
+          <span id="book_category"></span><br/>
+          <span id="book_quote"></span>
+        </div>
       </div>
     </div>
-
     
   </div>  
 
-  <br/><br/>  
   <div id="footer">
     <div class="content">
       Copyright &copy; The Braun Group LLC &nbsp;|&nbsp;
