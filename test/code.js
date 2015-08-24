@@ -87,6 +87,7 @@ var timer = null;
 
 $(function() {
     setup_slider_dots();
+    preload_images();
 });
 
 function setup_slider_dots() {
@@ -106,7 +107,7 @@ function setup_slider_dots() {
 
     update_book(0);
 
-    timer = setInterval(next_book, 7000);
+    timer = setInterval(next_book, 9000);
 
 }
 
@@ -135,7 +136,10 @@ function update_book(i) {
 
     // only slide text in from left if browser width >= 1020px
     if ($(window).width() >= 1020) {
-        $("#book_text").css("left", "300px");
+        //$("#book_text").css("left", "300px");
+        if ($(window).width() >= 1020) {
+            $("#book_text").css("color", "transparent");
+        }
     }
 
     $("#book_image").removeClass("book_blur");
@@ -150,7 +154,9 @@ function update_book(i) {
 
     $("#book_image").css("background-image", "url('../images/" + book['image'] + "')");
 
-    setTimeout(show_text, 700, i);
+    setTimeout(show_text, 1400, i);
+    setTimeout(hide_text, 7500, i);
+    setTimeout(slide_in_new_book, 8000, i);
 }
 
 function show_text(i) {
@@ -161,11 +167,50 @@ function show_text(i) {
         $("#book_image").css("background-image", "linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/" + book['image'] + "')");
         $("#book_image").addClass("book_blur");
     }
-
-    $( "#book_text" ).animate({
+    
+    if ($(window).width() >= 1020) {
+        $( "#book_text" ).animate({
+            color: "#ffffff"
+        }, 700, function() {
+        });
+    }
+}
+function slide_in_new_book(i) {
+    var book = books[0];
+    if ((i+1) < books.length) {
+        book = books[i+1];
+    }
+    $("#book_image2").css("background-image", "url('../images/" + book['image'] + "')");
+    $( "#book_image2" ).animate({
         left: "0px"
     }, 1000, function() {
-        // Animation complete.
+        $("#book_image2").css("left", "300px");
     });
+
+    $( "#book_image" ).animate({
+        left: "-300px"
+    }, 1000, function() {
+        $( "#book_image" ).css("left", "0px");
+    });
+
 }
 
+
+function hide_text(i) {
+    var book = books[i];
+    if ($(window).width() >= 1020) {
+        $( "#book_text" ).animate({
+            color: "transparent"
+        }, 700, function() {
+        });
+    }
+}
+
+function preload_images() {
+    var images = new Array()
+    for (i = 0; i < books.length; i++) {
+       var book = books[i];
+	    images[i] = new Image()
+	    images[i].src = "../images/" + book['image'];
+    }
+}
