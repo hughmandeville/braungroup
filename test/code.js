@@ -154,7 +154,12 @@ function update_book(i) {
 
     $("#book_image").css("background-image", "url('../images/" + book['image'] + "')");
 
-    setTimeout(show_text, 1400, i);
+    if ($(window).width() >= 1020) {        
+        setTimeout(show_text, 1400, i);
+    } else {
+        // TODO: could make slide left
+        show_text(i);
+    }
     setTimeout(hide_text, 7500, i);
     setTimeout(slide_in_new_book, 8000, i);
 }
@@ -184,14 +189,27 @@ function slide_in_new_book(i) {
     $( "#book_image2" ).animate({
         left: "0px"
     }, 1000, function() {
-        $("#book_image2").css("left", "300px");
-    });
+        if ($(window).width() >= 1020) {
+            $("#book_image2").css("left", "300px");
+        } else {
+            $( "#book_image2" ).css("left", "218px");            
+        }
 
-    $( "#book_image" ).animate({
-        left: "-300px"
-    }, 1000, function() {
-        $( "#book_image" ).css("left", "0px");
     });
+    
+    if ($(window).width() >= 1020) {                
+        $( "#book_image" ).animate({
+            left: "-300px"
+        }, 1000, function() {
+            $( "#book_image" ).css("left", "0px");
+        });
+    } else {
+        $( "#book_image" ).animate({
+            left: "-218px"
+        }, 1000, function() {
+            $( "#book_image" ).css("left", "0px");
+        });
+    }
 
 }
 

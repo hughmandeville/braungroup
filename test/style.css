@@ -101,7 +101,7 @@ a {
  height: 28px;
 }
 
-#book_image {
+#book_image, #book_image2 {
  background-position: center;
 }
 
@@ -110,18 +110,6 @@ a {
 }
 #book_byline {
  font-weight: 300;
-}
-
-#book_image2 {
- position: absolute;
- background-position: center;
- background-size: cover;
- z-index: 2;
- width: 300px;
- height: 480px;
- top: 0;
- left: 300px;
- background-image: url('../images/book_cover_lucky_breaks.jpg');
 }
 
 
@@ -148,12 +136,21 @@ a {
  }
  #book_image {
   position: relative;
-  width: 221px;
-  height: 348px;
-  background-size: cover;
+  z-index: 1;
   margin: 40px auto 0 auto;
  }
-
+ #book_image2 {
+  position: absolute;
+  top: 0;
+  left: 218px;
+  z-index: 2;
+ }
+ #book_image, #book_image2 { 
+  width: 218px;
+  height: 348px;
+  background-size: cover;
+ }
+ 
  #book_text {
   position: relative;
   width: 100%;
@@ -257,6 +254,17 @@ a {
 
  #book_image {
   position: relative;
+  z-index: 1;
+ }
+ #book_image2 {
+  position: absolute;
+  top: 0;
+  left: 218px;
+  background-size: cover;
+  z-index: 2;
+ }
+
+ #book_image, #book_image2 {
   width: 218px;
   height: 348px;
   background-size: cover;
@@ -299,12 +307,19 @@ a {
  }
 
  #book_image {
+  left: 0;
+  z-index: 1;
+ }
+ #book_image2 {
+  left: 300px;
+  z-index: 2;
+ }
+
+ #book_image, #book_image2 {
   position: absolute;
   width: 300px;
   height: 480px;
   top: 0;
-  left: 0;
-  z-index: 1;
   background-size: cover;
  }
 
@@ -319,9 +334,9 @@ a {
   color: #ffffff;
  }
  #book_slider {
-  position: relative;
+  position:relative;
   width: 300px;
-  height: 480px;
+  height: 520px;
   overflow-x: hidden;
  }
  #slider_dots {
