@@ -88,6 +88,10 @@ var timer = null;
 $(function() {
     setup_slider_dots();
     preload_images();
+    
+    $("#bars").on("click", function() {
+        $("#menu").slideToggle("slow");
+    });
 });
 
 function setup_slider_dots() {
@@ -107,8 +111,7 @@ function setup_slider_dots() {
 
     update_book(0);
 
-    timer = setInterval(next_book, 9000);
-
+    timer = setInterval(next_book, 9000);    
 }
 
 function next_book() {
