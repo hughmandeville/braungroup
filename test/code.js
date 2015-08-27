@@ -83,7 +83,12 @@ var books = [
 
 var num_dots = 0;
 var cur_dot = 0;
+
 var timer = null;
+var show_text_timeout = null;
+var hide_text_timeout = null;
+var slide_book_timeout = null;
+
 
 $(function() {
     setup_slider_dots();
@@ -91,7 +96,7 @@ $(function() {
     
     $("#bars").on("click", function() {
         $("#menu").slideToggle("slow");
-    });
+    });    
 });
 
 function setup_slider_dots() {
@@ -102,16 +107,46 @@ function setup_slider_dots() {
         html_str += "<span class='dot' data-id='" + i + "'>&bull;</span> ";
     }
     $("#slider_dots").html(html_str);
+
+    timer = setInterval(next_book, 9000);
+    
     $(".dot").on("click", function() {
         // stop slider animation if someone clicks on a dot
-        clearInterval(timer);
-        timer = null;
-        update_book($(this).data("id"));
+        clear_timers();
+        update_book($(this).data("id"), false);
     });
 
-    update_book(0);
+    update_book(0);    
+    $("#book_slider").on("swipeleft", function() {
+        // stop slider animation if someone swipes
+        clear_timers();
+        next_book();
+    });
+    $("#book_slider").on("swiperight", function() {
+        // stop slider animation if someone swipes
+        clear_timers();
+        prev_book();
+    });
+        
+}
 
-    timer = setInterval(next_book, 9000);    
+function clear_timers() {
+    if (timer != null) {
+        clearInterval(timer);
+        timer = null;
+    }
+    if (show_text_timeout != null) {
+        clearTimeout(show_text_timeout);
+        show_text_timeout = null;
+    }
+    if (hide_text_timeout != null) {
+        clearTimeout(hide_text_timeout);
+        hide_text_timeout = null;
+    }
+    if (slide_book_timeout != null) {
+        clearTimeout(slide_book_timeout);
+        slide_book_timeout = null;
+    }
 }
 
 function next_book() {
@@ -123,26 +158,32 @@ function next_book() {
     }
     update_book(cur_dot);
 }
-
-function update_book(i) {    
+function prev_book() {
+    cur_dot--;
+    if (cur_dot >= books.length) {
+        cur_dot = 0;
+    } else if (cur_dot < 0) {
+        cur_dot = (books.length - 1);
+    }
+    update_book(cur_dot);
+}
+function update_book(i) {
     if (i >= books.length) {
         i = 0;
-        cur_dot = 0;
     } else if (i < 0) {
         i = (books.length - 1);
-        cur_dot = i;
     }
+    cur_dot = i;
+
     var book = books[i];
 
+    
     $(".dot").removeClass("selected");
     $(".dot[data-id=" + i + "]").addClass("selected");
 
     // only slide text in from left if browser width >= 1020px
     if ($(window).width() >= 1020) {
-        //$("#book_text").css("left", "300px");
-        if ($(window).width() >= 1020) {
-            $("#book_text").css("color", "transparent");
-        }
+        $("#book_text").css("color", "transparent");
     }
 
     $("#book_image").removeClass("book_blur");
@@ -157,14 +198,13 @@ function update_book(i) {
 
     $("#book_image").css("background-image", "url('../images/" + book['image'] + "')");
 
-    if ($(window).width() >= 1020) {        
-        setTimeout(show_text, 1400, i);
+    if ($(window).width() >= 1020) {
+        show_text_timeout = setTimeout(show_text, 1400, i);
     } else {
-        // TODO: could make slide left
-        show_text(i);
+        show_text(i);  // XXX: could slide left
     }
-    setTimeout(hide_text, 7500, i);
-    setTimeout(slide_in_new_book, 8000, i);
+    hide_text_timeout = setTimeout(hide_text, 7500, i);
+    slide_book_timeout = setTimeout(slide_in_new_book, 8000, i);
 }
 
 function show_text(i) {
@@ -197,7 +237,6 @@ function slide_in_new_book(i) {
         } else {
             $( "#book_image2" ).css("left", "218px");            
         }
-
     });
     
     if ($(window).width() >= 1020) {                
@@ -213,7 +252,6 @@ function slide_in_new_book(i) {
             $( "#book_image" ).css("left", "0px");
         });
     }
-
 }
 
 
