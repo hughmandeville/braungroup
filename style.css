@@ -39,6 +39,10 @@ a {
 .content a {
   color: blue;
 }
+#footer .content a {
+  color: #000000;
+}
+
 
 
 .col1a, .col2a {
@@ -461,4 +465,9 @@ a {
   height: 150px;
   border-radius: 120px;
   background: #666;
+}
+
+.error_404 {
+  width: 100%;
+  max-width: 462px;
 }
