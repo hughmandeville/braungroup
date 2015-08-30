@@ -1,6 +1,9 @@
 rewriteengine on
 Options +Indexes
 
+ErrorDocument 404 /missing.html
+
+Redirect 301 ^/bgroup/about/$                       http://braungroupllc.com/index.html
 Redirect 301 ^/bgroup/background/$                  http://braungroupllc.com/index.html
 Redirect 301 ^/bgroup/client_books/$                http://braungroupllc.com/general_biographies.html
 Redirect 301 ^/bgroup/clients/$                     http://braungroupllc.com/index.html
