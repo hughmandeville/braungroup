@@ -5,6 +5,8 @@ scp code.js rebeccabraun@braungroupllc.com:/var/chroot/home/content/38/9497338/h
 scp executive_memoirs.html rebeccabraun@braungroupllc.com:/var/chroot/home/content/38/9497338/html/
 scp general_biographies.html rebeccabraun@braungroupllc.com:/var/chroot/home/content/38/9497338/html/
 scp index.html rebeccabraun@braungroupllc.com:/var/chroot/home/content/38/9497338/html/
+#scp robots.txt rebeccabraun@braungroupllc.com:/var/chroot/home/content/38/9497338/html/
+#scp sitemap.xml rebeccabraun@braungroupllc.com:/var/chroot/home/content/38/9497338/html/
 scp style.css rebeccabraun@braungroupllc.com:/var/chroot/home/content/38/9497338/html/
 scp team.html rebeccabraun@braungroupllc.com:/var/chroot/home/content/38/9497338/html/
 scp venture_development.html rebeccabraun@braungroupllc.com:/var/chroot/home/content/38/9497338/html/
