@@ -1,16 +1,20 @@
-rewriteengine on
-Options +Indexes
+RewriteEngine on
+RewriteBase /
+
+Options +FollowSymLinks +Indexes
 
 ErrorDocument 404 /missing.html
 
-Redirect 301 ^/bgroup/about/$                       http://braungroupllc.com/index.html
-Redirect 301 ^/bgroup/background/$                  http://braungroupllc.com/index.html
-Redirect 301 ^/bgroup/client_books/$                http://braungroupllc.com/general_biographies.html
-Redirect 301 ^/bgroup/clients/$                     http://braungroupllc.com/index.html
-Redirect 301 ^/bgroup/connect/$                     http://braungroupllc.com/team.html
-Redirect 301 ^/bgroup/consulting/$                  http://braungroupllc.com/venture_development.html
-Redirect 301 ^/bgroup/home/$                        http://braungroupllc.com/index.html
-Redirect 301 ^/bgroup/process/$                     http://braungroupllc.com/index.html
-Redirect 301 ^/bgroup/tag/                          http://braungroupllc.com/index.html#
-Redirect 301 ^/bgroup/team/$                        http://braungroupllc.com/team.html
-Redirect 301 ^/bgroup/$                             http://braungroupllc.com/index.html
+RedirectMatch 301 ^/bgroup/about/$                http://braungroupllc.com/index.html
+RedirectMatch 301 ^/bgroup/author/rebeccabraun/$  http://braungroupllc.com/team.html
+RedirectMatch 301 ^/bgroup/background/$           http://braungroupllc.com/index.html 
+RedirectMatch 301 ^/bgroup/clients_books/         http://braungroupllc.com/general_biographies.html
+RedirectMatch 301 ^/bgroup/clients/$              http://braungroupllc.com/index.html
+RedirectMatch 301 ^/bgroup/connect/$              http://braungroupllc.com/team.html
+RedirectMatch 301 ^/bgroup/consulting/$           http://braungroupllc.com/venture_development.html
+RedirectMatch 301 ^/bgroup/home/$                 http://braungroupllc.com/index.html
+RedirectMatch 301 ^/bgroup/process/$              http://braungroupllc.com/index.html
+RedirectMatch 301 ^/bgroup/tag/becca-braun/$      http://braungroupllc.com/team.html
+RedirectMatch 301 ^/bgroup/tag/                   http://braungroupllc.com/index.html
+RedirectMatch 301 ^/bgroup/team/$                 http://braungroupllc.com/team.html
+RedirectMatch 301 ^/bgroup/$                      http://braungroupllc.com/index.html
