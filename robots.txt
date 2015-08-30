@@ -1,3 +1,2 @@
 User-agent: *
-Disallow: /bgroup/wp-admin/
 Sitemap: http://braungroupllc.com/sitemap.xml
