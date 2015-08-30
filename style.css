@@ -22,8 +22,8 @@ h2 {
 }
 
 h3 {
-  font-size: 28px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 600;
   padding: 0px;
   margin: 0px;
 }
@@ -34,6 +34,10 @@ a {
 .content a:hover {
   color: #333;
   text-decoration: underline;
+}
+
+.content a {
+  color: blue;
 }
 
 
@@ -429,4 +433,32 @@ a {
 .menu_item:hover {
  background: #f7f7f7;
  color: #000;
+}
+
+
+.team_member {
+  display: inline-block;
+  width: 410px;
+  background: #e3dfd4;
+  padding: 10px 20px 0 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border: 1px solid #d0d0d0;
+  vertical-align: top;
+  min-height:500px;
+}
+.team_member .name {
+ font-weight: 500;	
+ font-size: 20px;
+}
+.team_member:hover { 
+  background: #f3efe4;
+  border: 1px solid #a0a0a0;
+}
+.team_member_image {
+  float:left;
+  margin: 20px 40px 20px 0;
+  height: 150px;
+  border-radius: 120px;
+  background: #666;
 }
