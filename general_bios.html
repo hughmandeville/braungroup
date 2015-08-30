@@ -1,52 +1,123 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
- <meta charset="utf-8">
- <title>The Braun Group LLC - General Biographies</title>
-  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700|Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
- <link rel="stylesheet" type="text/css" href="style.css">
- <link rel="icon" type="image/png" href="images/favicon_32x32.png">
+ <meta charset="utf-8"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+ <meta name="description" content="The Braun Group specializes in ghostwriting lasting, well-written memoirs that tell your story, turning your life, career, and memories into a book."/> 
+ <title>The Braun Group - General Biographies</title>
+ <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700|Open+Sans:300,400,700' rel='stylesheet' type='text/css'/>
+ <link rel="stylesheet" type="text/css" href="style.css"/>
+ <link rel="icon" type="image/png" href="images/favicon_32x32.png"/>
  <script src="http://code.jquery.com/jquery.min.js"/></script>
+ <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
  <script src="code.js"/></script>
+ <meta property="og:url" content="http://www.braungroupllc.com/" />
+ <meta property="og:title" content="The Braun Group LLC" />
+ <meta property="og:description" content="The Braun Group specializes in ghostwriting lasting, well-written memoirs that tell your story, turning your life, career, and memories into a book." />
+ <meta property="og:type" content="website" />
+ <meta property="og:image" content="http://braungroupllc.com/new/images/logo_bg_wide_white_188x50.png" />
+ <meta itemprop="inLanguage" content="en" />
 </head>
-<body>
+<body>  
   <div id="nav">
     <div id="nav_items">
-      <div class="nav_item"><a href="index.html"><img src="images/logo_bg_wide_white_188x50.png"></a></div>
-      <div class="nav_item"><a href="general_bios.html">General Biographies</a></div>
-      <div class="nav_item"><a href="executive_bios.html">Executive Memoirs</a></div>
-      <div class="nav_item"><a href="visual_bios.html">Visual Biographies</a></div>
-      <div class="nav_item"><a href="team.html">Connect & Team</a></div>
-      <!--<div class="nav_item"><a href="connect.html">Connect</a></div>-->
-      <br class="clearfix"/>
+      <div class="nav_item nav_logo"><a href="index.html"><img src="images/logo_bg_wide_white_188x50.png"></a></div>
+      <div class="nav_item"><a href="general_biographies.html">General Biographies</a></div>
+      <div class="nav_item"><a href="executive_memoirs.html">Executive Memoirs</a></div>
+      <div class="nav_item"><a href="visual_biographies.html">Visual Biographies</a></div>
+      <div class="nav_item nav_last_item"><a href="team.html">Connect &amp; Team</a></div>
+      <div id="bars">☰</div>
     </div>
   </div>
-  <div class="band">
-    <div class="content">
-      <h1>General Biographies</h1>
-      <div id="visual_panel">
-        <div id="visual_cell_general"><div class="transbox1">Click for book descriptions</div></div>
+  <div class="content">
+    <h1>General Biographies</h1>
+    
+    <div class="col1a">
+      Storytelling is a classic form of expression — from stories carved on cave walls and those told around a fire to plays, scripts, and novels. The classic hard-copy book is The Braun Group's core format. Companion formats include e-book, audiobook, podcast, audio, and video links, and more. Books are typically 75-300 pages.
+
+      <br/><br/>
+
+      The Braun Group writes your biography, ghostwrites your memoir, conducts research and fact checking, and edits, prints, and produces the book and companion products. Many clients prefer limited print editions so they can distribute the books to friends, family, and colleagues only. Some clients enjoy taking the commercial publishing route. The Braun Group can set up and manage their Amazon (or other) seller accounts.
+        
+      <br/><br/>
+
+      All of our General Biographies:
+
+      <ul>
+        <li>Are character-driven, action-packed, multi-format, go deep fast, and</li>
+        <li>Deliver insight, which, in addition to entertainment, is an important measure of success for any story.</li>
+      </ul>
+
+    </div>
+    <div class="col2a">
+      <div id="book_slider">
+        <div id="book_image"></div>
+        <div id="book_image2"></div>
+        <div id="slider_dots"></div>
+        <div id="book_text">
+          <h2><span id="book_title"></span><br/><span id="book_byline"></span></h2><br/>
+          <span id="book_category"></span><br/>
+          <span id="book_quote"></span>
+        </div>
       </div>
-<p>
-Storytelling is a classic form of expression — from stories carved on cave walls and those told around a fire to plays, scripts, and novels. The classic hard-copy book is The Braun Group's core format. Companion formats include e-book, audiobook, podcast, audio, and video links, and more. Books are typically 75-300 pages.
-</p>
-<p>
-The Braun Group writes your biography, ghostwrites your memoir, conducts research and fact checking, and edits, prints, and produces the book and companion products. Many clients prefer limited print editions so they can distribute the books to friends, family, and colleagues only. Some clients enjoy taking the commercial publishing route. The Braun Group can set up and manage their Amazon (or other) seller accounts.
-</p>
-<p>
-All of our General Biographies:
-</p>
-  <ul>
-    <li>Are character-driven, action-packed, multi-format, go deep fast, and</li>
-    <li>Deliver insight, which, in addition to entertainment, is an important measure of success for any story.</li>
-  </ul><p><br>
     </div>
-  </div>
+    
+  </div>  
+
   <div id="footer">
     <div class="content">
       Copyright &copy; The Braun Group LLC &nbsp;|&nbsp;
       <a href="mailto:info@braungroupllc.com">info@braungroupllc.com</a>
     </div>
   </div>
+  <div id="menu">
+    <div class="menu_item">General Biographies</div>
+    <div class="menu_item">Executive Memoirs</div>
+    <div class="menu_item">Visual Biographies</div>
+    <div class="menu_item">Connect &amp; Team</div>
+  </div>
+</div>
+
+<script type="text/javascript">
+var books = [
+     {
+         "title": "Five Generations", 
+         "byline": "by Bob Gries",
+         "image": "book_cover_five_generations.jpg",
+         "category": "",
+         "quote": "",
+         "quote2": "",
+         "text": "Philanthropist and investor Bob Gries tells the remarkable stories of five generations of his family, from Simson Thorman, who arrived in Cleveland, Ohio, in the 1830s and became the city’s first Jewish settler, to the founders of May Company and the Cleveland Browns football team. Love of Cleveland is a life theme for Gries and his ancestors."
+     },     
+     {
+         "title": "Gumption and Gusto", 
+         "byline": "by Neil Ruddock",
+         "image": "book_cover_gumption_and_gusto.jpg",
+         "category": "",
+         "quote": "",
+         "quote2": "",
+         "text": "When Betty Kidder Ruddock was three, her mother died of diphtheria. Then her father lost his job, succumbed to alcoholism, and was unable to support his family. By age eight, Betty was living with strangers in a boarding house near Akron, Ohio, begging for food and making money by picking strawberries. Betty’s husband tells her story of human resilience, forgiveness, and joy."
+     },
+     {
+         "title": "Life With Ham", 
+         "byline": "by Terry Biggar",
+         "image": "book_cover_life_with_ham.jpg",
+         "category": "",
+         "quote": "",
+         "quote2": "",
+         "text": "Friends and family pay tribute to Ham Biggar by recalling his many adventures playing squash, hunting, and building restaurants and night clubs in and around Cleveland. Each vignette beats with love for the man and his passion for life."
+     },
+     {
+         "title": "Three Families", 
+         "byline": "by Allen Ford",
+         "image": "book_cover_three_families.jpg",
+         "category": "",
+         "quote": "",
+         "quote2": "",
+         "text": "This book traces the history and lives of three of the author’s ancestral families, showing us how men and women migrated to the Connecticut Western Reserve in Ohio in the early 19th century and brought with them their values of independence, freedom, and commitment to education."
+     }
+ ];
+</script>
+
 </body>
 </html>
