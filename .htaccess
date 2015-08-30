@@ -1,13 +1,13 @@
 rewriteengine on
 Options +Indexes
 
-Redirect 301 ^/bgroup/background/$                  http://www.braungroupllc.com/index.html
-Redirect 301 ^/bgroup/client_books/$                http://www.braungroupllc.com/general_biographies.html
-Redirect 301 ^/bgroup/clients/$                     http://www.braungroupllc.com/index.html
-Redirect 301 ^/bgroup/connect/$                     http://www.braungroupllc.com/team.html
-Redirect 301 ^/bgroup/consulting/$                  http://www.braungroupllc.com/venture_development.html
-Redirect 301 ^/bgroup/home/$                        http://www.braungroupllc.com/index.html
-Redirect 301 ^/bgroup/process/$                     http://www.braungroupllc.com/index.html
-Redirect 301 ^/bgroup/tag/                          http://www.braungroupllc.com/index.html#
-Redirect 301 ^/bgroup/team/$                        http://www.braungroupllc.com/team.html
-Redirect 301 ^/bgroup/$                             http://www.braungroupllc.com/index.html
+Redirect 301 ^/bgroup/background/$                  http://braungroupllc.com/index.html
+Redirect 301 ^/bgroup/client_books/$                http://braungroupllc.com/general_biographies.html
+Redirect 301 ^/bgroup/clients/$                     http://braungroupllc.com/index.html
+Redirect 301 ^/bgroup/connect/$                     http://braungroupllc.com/team.html
+Redirect 301 ^/bgroup/consulting/$                  http://braungroupllc.com/venture_development.html
+Redirect 301 ^/bgroup/home/$                        http://braungroupllc.com/index.html
+Redirect 301 ^/bgroup/process/$                     http://braungroupllc.com/index.html
+Redirect 301 ^/bgroup/tag/                          http://braungroupllc.com/index.html#
+Redirect 301 ^/bgroup/team/$                        http://braungroupllc.com/team.html
+Redirect 301 ^/bgroup/$                             http://braungroupllc.com/index.html
