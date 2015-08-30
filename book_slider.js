@@ -13,14 +13,15 @@ $(function() {
 
     // When window is resized, make sure book slider is styled correctly for new width.
     $( window ).resize(function() {        
-        var book = books[i];
+        var book = books[cur_dot];
 
-        $("#book_image").addClass("book_blur");
         if ($(window).width() >= 1020) {
+            $("#book_image").addClass("book_blur");
             $("#book_text").css("color", "#ffffff");
             $("#book_image").css("background-image", "linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/" + book['image'] + "')");
             $("#book_image2").css("left", "300px");
         } else {
+            $("#book_image").removeClass("book_blur");
             $("#book_text").css("color", "#000000");
             $("#book_image").css("background-image", "url('images/" + book['image'] + "')");
             $("#book_image2").css("left", "218px");
