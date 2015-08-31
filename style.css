@@ -182,6 +182,17 @@ a {
  }
  .book_blur {
  }
+
+ .team_member_image {
+  display: block;
+  text-align: center;
+ }
+ .team_member {
+  min-width: 260px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 10px 20px 10px 20px;
+ } 
 }
 
 
@@ -243,7 +254,16 @@ a {
   display: none;
  }
  #bars, #nav_items .nav_logo {
+	display: inline-block;
+ }
+ .team_member {
+  margin-bottom: 20px;
+  padding: 10px 20px 10px 20px;
+ }
+ .team_member_image {
   display: inline-block;
+  float: left;
+  margin: 20px 20px 20px 0;
  }
 }
 
@@ -311,6 +331,16 @@ a {
   font-weight: 500;
  }
  .book_blur {
+  }
+
+ .team_member {
+  margin-bottom: 20px;
+  padding: 10px 20px 10px 20px;
+ }
+ .team_member_image {
+  display: inline-block;
+  float: left;
+  margin: 20px 20px 20px 0;
  }
 }
 
@@ -378,6 +408,18 @@ a {
  #nav_items #bars {
   display: none;
   margin-left: 300px;
+  }
+ .team_member {
+  width: 410px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 10px 20px 10px 20px;
+  min-height: 500px;
+ }
+ .team_member_image {
+  display: inline-block;
+  float: left;
+  margin: 20px 20px 20px 0;
  }
 }
 
@@ -439,29 +481,27 @@ a {
  color: #000;
 }
 
-
+.team_member .name {
+ font-size: 24px;
+ font-weight: 500;
+}
+.team_member .title {
+ font-size: 20px;
+ font-weight: 500;
+ color: #333;
+}
 .team_member {
   display: inline-block;
-  width: 410px;
   background: #e3dfd4;
-  padding: 10px 20px 0 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
   border: 1px solid #d0d0d0;
   vertical-align: top;
-  min-height:500px;
-}
-.team_member .name {
- font-weight: 500;	
- font-size: 20px;
 }
 .team_member:hover { 
   background: #f3efe4;
   border: 1px solid #a0a0a0;
 }
 .team_member_image {
-  float:left;
-  margin: 20px 40px 20px 0;
+  display: inline-block;
   height: 150px;
   border-radius: 120px;
   background: #666;
