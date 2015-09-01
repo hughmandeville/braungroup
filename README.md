@@ -20,6 +20,7 @@ Files and Directories
     style.css                    - Main style sheet.
     team.html                    - Web page with connect and team info.
     venture_development.html     - Web page with venture development consulting info.
+    visual_bios.js               - JavaScript to animate visual.
     visual_biographies.html      - Web page with info about visual biographies.
 
 
