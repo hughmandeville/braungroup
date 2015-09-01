@@ -510,3 +510,14 @@ a {
   width: 100%;
   max-width: 462px;
 }
+
+#visual {
+  background-size: cover;
+  width: 300px;
+  height: 394px;
+  overflow: hidden;
+  background-size: 300px 394px;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-image: url('images/dively_booklet.png');
+}
