@@ -4,33 +4,33 @@ Source files for the Braun Group website [www.braungroupllc.com](http://www.brau
 Files and Directories
 =====================
 
-  .htaccess            - Web server configuration (rewrite rules, ...).
+  .htaccess                    - Web server configuration (rewrite rules, ...).
 
-  code.js              - Site JavaScript file. 
+  code.js                      - Site JavaScript file. 
 
-  connect.html         - Web page with contact info.
+  executive_memoirs.html       - Web page with info about executive memoirs.
 
-  executive_bios.html  - Web page with info about executive biographies.
+  general_biographies.html     - Web page with info about general biographies.
 
-  favicon_32x32.png    - Site icon for bookmarks and tabs.      
+  index.html                   - Home page.
 
-  general_bios.html    - Web page with info about general biographies.
+  install.sh                   - Script to install files on the web server.
 
-  index.html           - Home page.
+  README.md                    - This file.
 
-  install.sh           - Script to install files on the web server.
+  robots.txt                   - Contains info for web crawlers.
 
-  README.md            - This file.
+  sitemap.xml                  - List of pages on the site.
 
-  robots.txt           - Contains info for web crawlers.
+  style.css                    - Main style sheet.
 
-  sitemap.xml          - List of pages on the site.
+  team.html                    - Web page with connect and team info.
 
-  style.css            - Main style sheet.
+  venture_development.html     - Web page with venture development consulting info.
 
-  team.html            - Web page with team info.
+  visual_biographies.html      - Web page with info about visual biographies.
 
-  visual_bios.html     - Web page with info about visual biographies.
+  images/                      - Directory with images.
 
-  images/              - Directory with images.
-  
+      favicon_32x32.png        - Site icon for bookmarks and tabs.      
+
