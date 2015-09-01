@@ -4,8 +4,9 @@ Source files for the Braun Group website [www.braungroupllc.com](http://www.brau
 Files and Directories
 =====================
 
+	.gitignore                   - Files for git to ignore.
     .htaccess                    - Web server configuration (rewrite rules, ...).
-
+    book_slider.js               - JavaScript to animate book covers.
     code.js                      - Site JavaScript file. 
 
     executive_memoirs.html       - Web page with info about executive memoirs.
