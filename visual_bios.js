@@ -7,7 +7,7 @@ function animate_visual() {
     setTimeout(function() {
         $("#visual").animate({
             "background-size": "600px",
-            "background-position-x": "10px",
+            "background-position-x": "5px",
             "background-position-y": "0px"
         }, 1000, function() {
         });
@@ -23,7 +23,7 @@ function animate_visual() {
     setTimeout(function() {
         $("#visual").animate({
             "background-size": "600px",
-            "background-position-x": "0px",
+            "background-position-x": "5px",
             "background-position-y": "-394px"
         }, 1000, function() {
         });
