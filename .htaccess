@@ -18,3 +18,4 @@ RedirectMatch 301 ^/bgroup/tag/becca-braun/$      http://braungroupllc.com/team.
 RedirectMatch 301 ^/bgroup/tag/                   http://braungroupllc.com/index.html
 RedirectMatch 301 ^/bgroup/team/$                 http://braungroupllc.com/team.html
 RedirectMatch 301 ^/bgroup/$                      http://braungroupllc.com/index.html
+RedirectMatch 301 ^/visual_bios.html$             http://braungroupllc.com/visual_biographies.html
