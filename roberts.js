@@ -1,19 +1,12 @@
-var popup_state = "hidden";
-
 $(function() {
-
-    $("#number").click(function(){
-        if (popup_state == "hidden") {
-            $("#popup").show();
-            popup_state = "shown";
-        } else {
-            $("#popup").hide();
-            popup_state = "hidden";
-        }
+    $("area").click(function(e){
+        $("#module_endnote").html($(this).data("endnote"));        
+        $("#module_endnote").css("top", e.pageY - 40);
+        $("#module_endnote").css("left", e.pageX + 40);        
+        $("#module_endnote").show();
     });
-    $("#popup").click(function(){
-        $("#popup").hide();
-        popup_state = "hidden";
+    
+    $("#module_endnote").click(function(){
+        $("#module_endnote").hide();
     });
-
 });
