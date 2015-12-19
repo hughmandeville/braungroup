@@ -523,8 +523,11 @@ a {
 }
 
 
-#img_1 {
-   position: relative;   
+.img_full {
+  width: 100%;
+}
+#img_roberts {
+  position: relative;     
 }
 #number {
    position: absolute;
@@ -537,18 +540,18 @@ a {
    cursor: pointer;
 }
 
-#popup {
-   display: none;
-   position: absolute;
-   top: 300px;
-   left: 280px;
-   border: 1px solid #d0d0d0;
-   z-index: 2;
-   //background: rgba(255,255,255,0.9);
-   background: #fff;
-   padding: 20px;
-   font-size: 14px;
-   width: 300px;
-   border-radius: 8px;
-   line-height: 18px;
+#module_endnote {
+  display: none;
+  position: absolute;
+  top: 300px;
+  left: 280px;
+  border: 1px solid #c0c0c0;
+  z-index: 2;
+  background: #f3f3f3;
+  padding: 20px;
+  font-size: 16px;
+  width: 320px;
+  border-radius: 20px;
+  line-height: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
