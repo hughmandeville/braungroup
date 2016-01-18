@@ -51,6 +51,10 @@ a {
 .col2a {
   margin: 0 auto;
 }
+.col2a .image {
+  margin: 0 auto;
+  text-align: center;
+}
 
 #nav {
   position: absolute;
