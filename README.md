@@ -9,10 +9,10 @@ Files and Directories
     book_slider.js               - JavaScript to animate book covers.
     code.js                      - Site JavaScript file. 
     executive_memoirs.html       - Web page with info about executive memoirs.
-    general_biographies.html     - Web page with info about general biographies.
     executive_speechwriting.html - Web page with info about executive speechwriting.
+    general_biographies.html     - Web page with info about general biographies.
     images/                      - Directory with images.
-        favicon_32x32.png        - Site icon for bookmarks and tabs.
+    favicon_32x32.png            - Site icon for bookmarks and tabs.
 	index.html                   - Home page.
     install.sh                   - Script to install files on the web server.
     README.md                    - This file.
