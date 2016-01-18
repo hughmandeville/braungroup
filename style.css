@@ -54,6 +54,7 @@ a {
 .col2a .image {
   margin: 0 auto;
   text-align: center;
+  width: 300px;
 }
 
 #nav {
@@ -286,7 +287,11 @@ a {
  }
  .col2a {
   width: 218px;
- }
+  }  
+  .col2a .image img {
+   width: 218px;
+  }
+
  #nav_items {
   font-size: 14px;
   width: 768px;
