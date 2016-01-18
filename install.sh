@@ -3,6 +3,7 @@
 scp book_slider.js rebeccabraun@braungroupllc.com:/var/chroot/home/content/38/9497338/html/
 scp code.js rebeccabraun@braungroupllc.com:/var/chroot/home/content/38/9497338/html/
 scp executive_memoirs.html rebeccabraun@braungroupllc.com:/var/chroot/home/content/38/9497338/html/
+scp executive_speechwriting.html rebeccabraun@braungroupllc.com:/var/chroot/home/content/38/9497338/html/
 scp general_biographies.html rebeccabraun@braungroupllc.com:/var/chroot/home/content/38/9497338/html/
 scp missing.html rebeccabraun@braungroupllc.com:/var/chroot/home/content/38/9497338/html/
 scp index.html rebeccabraun@braungroupllc.com:/var/chroot/home/content/38/9497338/html/
