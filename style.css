@@ -291,6 +291,12 @@ a {
   .col2a .image img {
    width: 218px;
   }
+  #visual {
+   text-align: center;
+   margin: 0 auto;
+   width: 218px;
+   max-width: 218px;
+  }
 
  #nav_items {
   font-size: 14px;
