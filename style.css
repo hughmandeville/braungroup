@@ -125,6 +125,18 @@ a {
  font-weight: 300;
 }
 
+#visual {
+  margin: 0 auto;
+  background-size: cover;
+  width: 300px;
+  height: 394px;
+  overflow: hidden;
+  background-size: 300px 394px;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-image: url('images/dively_booklet.png');
+}
+
 
 @media all and (max-width: 449px) {
  .content {
@@ -295,7 +307,9 @@ a {
    text-align: center;
    margin: 0 auto;
    width: 218px;
-   max-width: 218px;
+   height: 286px;
+   overflow: hidden;
+   background-size: 218px 286px;
   }
 
  #nav_items {
@@ -532,18 +546,6 @@ a {
 .error_404 {
   width: 100%;
   max-width: 462px;
-}
-
-#visual {
-  margin: 0 auto;
-  background-size: cover;
-  width: 300px;
-  height: 394px;
-  overflow: hidden;
-  background-size: 300px 394px;
-  background-repeat: no-repeat;
-  background-position: 0px 0px;
-  background-image: url('images/dively_booklet.png');
 }
 
 
