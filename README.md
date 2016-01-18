@@ -10,6 +10,7 @@ Files and Directories
     code.js                      - Site JavaScript file. 
     executive_memoirs.html       - Web page with info about executive memoirs.
     general_biographies.html     - Web page with info about general biographies.
+    executive_speechwriting.html - Web page with info about executive speechwriting.
     images/                      - Directory with images.
         favicon_32x32.png        - Site icon for bookmarks and tabs.
 	index.html                   - Home page.
