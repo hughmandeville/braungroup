@@ -48,6 +48,10 @@ a {
  display: inline-block;
  vertical-align: top;
 }
+.col2a {
+ margin: 0 auto;
+ text-align: center;
+}
 
 #nav {
   position: absolute;
@@ -517,6 +521,7 @@ a {
 }
 
 #visual {
+  margin: 0 auto;
   background-size: cover;
   width: 300px;
   height: 394px;
