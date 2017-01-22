@@ -11,6 +11,20 @@
  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"/></script>
  <script src="code.js"/></script>
+ <script language="javascript" type="text/javascript">
+function showHide(shID) {
+   if (document.getElementById(shID)) {
+      if (document.getElementById(shID+'-show').style.display != 'none') {
+         document.getElementById(shID+'-show').style.display = 'none';
+         document.getElementById(shID).style.display = 'block';
+      }
+      else {
+         document.getElementById(shID+'-show').style.display = 'inline';
+         document.getElementById(shID).style.display = 'none';
+      }
+   }
+}
+</script>
 </head>
 <body>
   <div id="nav">
@@ -27,7 +41,9 @@
     <h1>Stories. Strategies. Success.</h1>
     
     <div class="col1a">
-        The Braun Group creates biographies and memoirs for people interested in telling their own or someone else’s story. We work with you on each step of the writing and production process. The Braun Group specializes in great service (customized for each client), rich content (deeply understanding executive life and decisions), and modern production (creating a combination of classic and new media companion products that audiences love). These formats include print books, audio books, e-books, podcasts, study guides, chapter summaries, author/subject speaking engagements, and more. 
+        The Braun Group creates biographies and memoirs for people interested in telling their own or someone else’s story. We work with you on each step of the writing and production process.<a href="#" id="example-show" class="showLink" onclick="showHide('example');return false;">See more...</a>
+<div id="example" class="more">
+  <p>The Braun Group specializes in great service (customized for each client), rich content (deeply understanding executive life and decisions), and modern production (creating a combination of classic and new media companion products that audiences love). These formats include print books, audio books, e-books, podcasts, study guides, chapter summaries, author/subject speaking engagements, and more.
 
         <br/><br/>
 
@@ -36,8 +52,10 @@
         <br/><br/>
 
         The Braun Group also does <strong><a href="venture_dev.html">venture development consulting</a></strong> for select clients. For more information, click <a href="venture_dev.html"><font color="blue">here</font></a>.
+        <br>
+        <a href="#" id="example-hide" class="hideLink" onclick="showHide('example');return false;">See less...</a>
+      </div>
 
-        <br/><br/>
     </div>
     <div class="col2a">
       <div id="book_slider">
