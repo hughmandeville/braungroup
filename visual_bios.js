@@ -1,7 +1,26 @@
+var visual_timer = null;
+var poster_timer = null;
+var poster_left  = "0px";
+
 $(function() {
+
     animate_visual();
-    timer = setInterval(animate_visual, 24000);
+    visual_timer = setInterval(animate_visual, 24000);
+
+    //animate_posters();
+    poster_timer = setInterval(animate_posters, 5000);
 });
+
+function animate_posters() {
+    if (poster_left == "0px") {
+        poster_left = "-300px";
+    } else {
+        poster_left = "0px";
+    }
+    $(".posters").animate({
+        left: poster_left
+    }, 1000);
+}
 
 function animate_visual() {
     setTimeout(function() {
