@@ -25,7 +25,7 @@ h3 {
   font-size: 18px;
   font-weight: 600;
   padding: 0px;
-  margin: 0px; 
+  margin: 0px;
 }
 a {
   text-decoration: none;
@@ -105,7 +105,7 @@ a {
  margin-right: 20px;
  display: inline-block;
  text-align: right;
- font-size: 23pt; 
+ font-size: 23pt;
  right: 0;
  cursor: pointer;
 }
@@ -165,7 +165,7 @@ a {
  #bars {
   margin-right: 10px;
  }
- #book_image, #book_image2 { 
+ #book_image, #book_image2 {
   width: 218px;
   height: 348px;
   background-size: cover;
@@ -213,7 +213,7 @@ a {
   min-width: 260px;
   margin-bottom: 20px;
   padding: 10px 20px 10px 20px;
- } 
+ }
 
  .story_board_image {
   display: block;
@@ -223,8 +223,7 @@ a {
   min-width: 260px;
   margin-bottom: 20px;
   padding: 10px 20px 10px 20px;
- } 
-
+ }
 
 }
 
@@ -241,7 +240,7 @@ a {
   width: 100%;
  }
 
- #book_image, #book_image2 { 
+ #book_image, #book_image2 {
   width: 218px;
   height: 348px;
   background-size: cover;
@@ -321,10 +320,10 @@ a {
  }
  .col2a {
   width: 218px;
-  }  
-  .col2a .image img {
+ }
+ .col2a .image img {
    width: 218px;
-  }
+ }
   #visual {
    text-align: center;
    margin: 0 auto;
@@ -544,7 +543,7 @@ a {
  top: 47px;
  right: 0px;
  width: 240px;
- background: #ffffff; 
+ background: #ffffff;
  z-index: 4;
  text-transform: uppercase;
  font-weight: 200;
@@ -555,7 +554,7 @@ a {
  border-left: 1px solid #e0e0e0;
  width: 100%;
  padding: 20pt 0;
- text-align: center; 
+ text-align: center;
 }
 .menu_item:hover {
  background: #f7f7f7;
@@ -577,7 +576,7 @@ a {
   border: 1px solid #d0d0d0;
   vertical-align: top;
 }
-.team_member:hover { 
+.team_member:hover {
   background: #f3efe4;
   border: 1px solid #a0a0a0;
 }
@@ -603,7 +602,7 @@ a {
   border: 1px solid #d0d0d0;
   vertical-align: top;
 }
-.story_board:hover { 
+.story_board:hover {
   background: #f3efe4;
   border: 1px solid #a0a0a0;
 }
@@ -624,7 +623,7 @@ a {
   width: 100%;
 }
 #img_roberts {
-  position: relative;     
+  position: relative;
 }
 #number {
    position: absolute;
