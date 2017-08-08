@@ -669,11 +669,18 @@ a {
 .posters_container {
   position: relative;
   width: 300px;
-  height: 195px;
   overflow: hidden;
   margin: 0 auto;
   padding: 0;
 }
+.posters_container_195 {
+  height: 195px;
+}
+.posters_container_468 {
+  height: 468px;
+}
+
+
 .posters
 {
   position: absolute;
